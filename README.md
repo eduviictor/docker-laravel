@@ -2,7 +2,6 @@
 
 A simple development environment for Laravel using Docker.
 
-
 ## Installation
 
 Make sure you have the docker installed on your machine and clone that repository. After that, create a src folder and place all your project files inside. Now run the command `docker-compose up -d --build` and go to: [http://localhost:8080](https://localhost:8080)
@@ -28,9 +27,10 @@ Commands you may need:
 
 Containers that will be available for use:
 
-- nginx
-- mysql
-- php
+- nginx (8080)
+- mysql (3306)
+- phpmyadmin (8088)
+- php (9000)
 - composer
 - npm
 - artisan
